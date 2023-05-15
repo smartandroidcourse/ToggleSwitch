@@ -1,9 +1,8 @@
 <ol dir="auto">
 <li>
-<p dir="auto">Add it in your root build.gradle at the end of repositories:</p>
+<p dir="auto">Include the library as local library project:</p>
 <div class="highlight highlight-source-groovy notranslate position-relative overflow-auto" dir="auto">
-<pre><code class=" kode  language-css"></code></pre>
-<pre class="kode language-css code-toolbar"><code class=" kode language-css"><span class="token selector">maven</span> <span class="token punctuation">{</span> url <span class="token string">'https://jitpack.io'</span> <span class="token punctuation">}<br /></span></code><code id="depCodeGradle" class=" kode  language-css"></code><span class="pl-s"><span class="pl-pds"><br /></span></span></pre>
+<pre><code id="depCodeGradle" class=" kode  language-css">maven <span class="token string">{url 'https://jitpack.io'}</span></code><span class="pl-s"><span class="pl-pds"><br /><br /></span></span></pre>
 </div>
 </li>
 <li>
